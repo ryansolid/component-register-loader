@@ -5,7 +5,7 @@ const loaderUtils = require('loader-utils');
 function loadHmr(file) {
   return `
     import Component from ${file};
-    import { hot } from 'solid-components';
+    import { hot } from 'component-register';
     export default Component;
 
     hot(module, Component.prototype.registeredTag);
