@@ -1,7 +1,7 @@
 {
   "name": "component-register-loader",
   "description": "A Webpack Loader to add Hot Module Replacement to Component Register",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "author": "Ryan Carniato",
   "license": "MIT",
   "repository": {
@@ -10,7 +10,7 @@
   },
   "main": "index.js",
   "peerDependencies": {
-    "component-register": ">= 0.6.9 < 0.7.0"
+    "component-register": "0.7.x"
   },
   "dependencies": {
     "loader-utils": "^1.2.3"
